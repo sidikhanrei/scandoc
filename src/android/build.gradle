@@ -1,7 +1,9 @@
-apply plugin: 'java-library'
+apply plugin: 'java'
 
 allprojects {
 	repositories {
+		google()
+		mavenCentral()
 //		maven {
 //			url 'https://jitpack.io'
 //		}
