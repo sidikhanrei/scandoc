@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+
+allprojects {
+	repositories {
+//		maven {
+//			url 'https://jitpack.io'
+//		}
+	}
+}
+
+dependencies {
+//	implementation 'com.github.NeutrinosPlatform:scanlibrary:3.3'
+//	implementation name: 'classes'
+	implementation fileTree(dir: 'assets', include: '*.jar')
+}
