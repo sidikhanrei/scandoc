@@ -3,3 +3,7 @@
 src/android/.project
 .vscode/settings.json
 src/android/.settings/org.eclipse.buildship.core.prefs
+src/android/.idea/gradle.xml
+src/android/.idea/misc.xml
+src/android/.idea/vcs.xml
+src/android/.idea/workspace.xml
