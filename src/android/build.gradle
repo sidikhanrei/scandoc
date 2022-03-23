@@ -1,18 +1,11 @@
-//apply plugin: 'java-library'
-
 allprojects {
 	repositories {
-//		google()
-//		mavenCentral()
-		maven {
-			url 'https://jitpack.io'
+		maven { 
+			url 'https://jitpack.io' 
 		}
 	}
 }
 
 dependencies {
-//	implementation 'com.github.NeutrinosPlatform:scanlibrary:3.3'
-//	implementation name: 'classes'
-//	implementation fileTree(dir: 'assets', include: '*.jar')
 	implementation 'com.github.sidikhanrei:scandoclib:3.3'
 }
