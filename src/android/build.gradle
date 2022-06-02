@@ -7,5 +7,5 @@ allprojects {
 }
 
 dependencies {
-	implementation 'com.github.sidikhanrei:scandoclib:3.4.4'
+	implementation 'com.github.sidikhanrei:scandoclib:3.4.5'
 }
